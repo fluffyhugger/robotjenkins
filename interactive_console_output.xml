@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on darwin)" generated="20250108 08:38:20.977" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/Users/sirapob/.vscode/extensions/robocorp.robotframework-lsp-1.13.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Set Selenium Speed">
+<arg>3</arg>
+<msg timestamp="20250108 08:38:22.328" level="FAIL">No keyword with name 'Set Selenium Speed' found.</msg>
+<status status="FAIL" starttime="20250108 08:38:22.328" endtime="20250108 08:38:22.328"/>
+</kw>
+<kw name="Open Browser">
+<arg>https://www.google.com</arg>
+<arg>edge</arg>
+<status status="NOT RUN" starttime="20250108 08:38:22.330" endtime="20250108 08:38:22.330"/>
+</kw>
+<kw name="Go To">
+<arg>https://www.facebook.com</arg>
+<status status="NOT RUN" starttime="20250108 08:38:22.330" endtime="20250108 08:38:22.330"/>
+</kw>
+<kw name="Input Text">
+<arg>xpath://*[@id="email"]</arg>
+<arg>helloworld</arg>
+<status status="NOT RUN" starttime="20250108 08:38:22.331" endtime="20250108 08:38:22.331"/>
+</kw>
+<status status="PASS" starttime="20250108 08:38:20.990" endtime="20250108 08:38:27.780"/>
+</kw>
+<status status="PASS" starttime="20250108 08:38:20.989" endtime="20250108 08:38:27.781"/>
+</test>
+<status status="PASS" starttime="20250108 08:38:20.978" endtime="20250108 08:38:27.786"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

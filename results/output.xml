@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.6 on darwin)" generated="2025-01-08T08:37:51.848011" rpa="false" schemaversion="5">
+<suite id="s1" name="Robottest" source="/Users/sirapob/Desktop/robottest">
+<suite id="s1-s1" name="Testcase" source="/Users/sirapob/Desktop/robottest/testcase">
+<suite id="s1-s1-s1" name="TC01" source="/Users/sirapob/Desktop/robottest/testcase/TC01.robot">
+<test id="s1-s1-s1-t1" name="TestHello" line="5">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-01-08T08:37:51.947627" elapsed="0.000619"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-08T08:37:51.948911" level="INFO">Opening browser 'edge' to base url 'https://www.google.com'.</msg>
+<arg>https://www.google.com</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-08T08:37:51.948542" elapsed="9.155612"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-01-08T08:38:01.113855" level="INFO">Opening url 'https://www.facebook.com'</msg>
+<arg>https://www.facebook.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-01-08T08:38:01.109623" elapsed="4.627186"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-08T08:38:05.752377" level="INFO">Typing text 'helloworld' into text field 'xpath://*[@id="email"]'.</msg>
+<arg>xpath://*[@id="email"]</arg>
+<arg>helloworld</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-08T08:38:05.745609" elapsed="9.287069"/>
+</kw>
+<status status="PASS" start="2025-01-08T08:37:51.946978" elapsed="23.088737"/>
+</test>
+<status status="PASS" start="2025-01-08T08:37:51.866511" elapsed="23.172031"/>
+</suite>
+<status status="PASS" start="2025-01-08T08:37:51.864844" elapsed="23.175038"/>
+</suite>
+<status status="PASS" start="2025-01-08T08:37:51.852561" elapsed="23.188711"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robottest">Robottest</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Testcase">Robottest.Testcase</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="TC01">Robottest.Testcase.TC01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
