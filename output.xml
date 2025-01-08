@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.6 on darwin)" generated="2025-01-08T08:49:12.087646" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1 (Python 3.10.3 on darwin)" generated="2025-01-08T09:05:29.705753" rpa="false" schemaversion="5">
 <suite id="s1" name="TC01" source="/Users/sirapob/Desktop/robottest/testcase/TC01.robot">
 <test id="s1-t1" name="TestHello" line="5">
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
 <arg>3</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2025-01-08T08:49:12.190269" elapsed="0.000105"/>
+<status status="PASS" start="2025-01-08T09:05:29.786741" elapsed="0.000113"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-08T08:49:12.190552" level="INFO">Opening browser 'edge' to base url 'https://www.google.com'.</msg>
+<msg time="2025-01-08T09:05:29.787032" level="INFO">Opening browser 'edge' to base url 'https://www.google.com'.</msg>
 <arg>https://www.google.com</arg>
 <arg>edge</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-08T08:49:12.190473" elapsed="9.599989"/>
+<status status="PASS" start="2025-01-08T09:05:29.786950" elapsed="8.168911"/>
 </kw>
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2025-01-08T08:49:21.793910" level="INFO">Opening url 'https://www.facebook.com'</msg>
+<msg time="2025-01-08T09:05:37.963035" level="INFO">Opening url 'https://www.facebook.com'</msg>
 <arg>https://www.facebook.com</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2025-01-08T08:49:21.793473" elapsed="4.396663"/>
+<status status="PASS" start="2025-01-08T09:05:37.961597" elapsed="4.737774"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-08T08:49:26.195541" level="INFO">Typing text 'helloworld' into text field 'xpath://*[@id="email"]'.</msg>
+<msg time="2025-01-08T09:05:42.716806" level="INFO">Typing text 'helloworld' into text field 'xpath://*[@id="email"]'.</msg>
 <arg>xpath://*[@id="email"]</arg>
 <arg>helloworld</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-08T08:49:26.192937" elapsed="9.257306"/>
+<status status="PASS" start="2025-01-08T09:05:42.707384" elapsed="9.374062"/>
 </kw>
-<status status="PASS" start="2025-01-08T08:49:12.189848" elapsed="23.267130"/>
+<status status="PASS" start="2025-01-08T09:05:29.786221" elapsed="22.304526"/>
 </test>
-<status status="PASS" start="2025-01-08T08:49:12.088456" elapsed="23.370055"/>
+<status status="PASS" start="2025-01-08T09:05:29.706505" elapsed="22.386678"/>
 </suite>
 <statistics>
 <total>
